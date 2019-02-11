@@ -1,0 +1,76 @@
+*{margin: 0;padding: 0;}
+footer{
+    min-width: 1200px;
+    width:100%;
+    background: #ddd;
+    padding-top: 30px;
+    /*border: 1px solid red;*/
+    width:100%;
+    background:white;
+}
+/*顶部*/
+footer .foter_toxaing{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+footer .foter_toxaing ul li img{
+    float: left;
+}
+footer .footer_size , .footer_size1{
+    text-decoration: none;
+    color:#333;
+    font-size:9px;
+}
+footer .footer_ml{
+    margin-left: 3rem;
+}
+footer .footer_size1{
+    margin-left: 2.25rem;
+}
+/*客服电话*/
+footer .kefu{
+text-align: center;
+    margin-left: 40%;
+    list-style: none;
+    margin-top: 20px;
+}
+footer .kefu li{
+    float: left;
+}
+footer .kefu li span{
+    font-size:9px;
+}
+/*底部导航条*/
+footer .clear_float ul{
+
+    margin-top: 15px;
+    list-style: none;
+    margin-left: 26%;
+
+}
+footer .clear_float ul li{
+    float:left;
+    margin-left: 5px;
+
+}
+footer .clear_float ul li a{
+    text-decoration: none;
+    color:#333;
+    font-size:9px;
+}
+/**/
+footer p{
+    min-width:1200px;
+    margin-top: 15px;
+    text-align: center;
+    font-size:9px;
+}
+footer .margin_bottom{
+    margin-bottom: 20px;
+}
+/*清除浮动*/
+table{
+    clear:both;
+}

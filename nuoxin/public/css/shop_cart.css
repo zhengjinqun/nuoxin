@@ -1,0 +1,278 @@
+*{margin: 0;padding: 0}
+a{
+    text-decoration: none;
+    color:#000;
+}
+/* 购物车 */
+section .cart{
+    width:100%;
+    /* border: 1px solid red; */
+    height:440px;
+    margin-left:75px;
+}
+section .cart .margin_top{
+    font-size:12px;
+    color:#3e3e3e;
+    margin-top:20px;
+}
+section .cart .margin_top a{
+   margin-left: 20px;
+}
+section .cart h3{
+    font-weight: normal;
+    color:#3e3e3e;
+    margin-top: 20px;
+}
+section .cart img{
+    margin-top: 70px;
+}
+section .cart p{
+    margin-top:40px;
+    font-size:14px;
+    color:#3e3e3e;
+}
+section .cart p a{
+    color:#ff4001;
+    text-decoration: underline;
+    }
+section .canji p{
+    text-align: center;
+    color:#3e3e3e;
+    font-size:14px;
+    }
+section .canji p a{
+    vertical-align: middle;
+    }
+section .canji p:last-child{
+    margin-top: 5px;
+    }
+section .margin_left{
+    margin-left: 20px !important;
+    }
+section>h3{
+    text-align: center;
+}
+/* 商品 */
+section .pei_jian>a:first-child{
+        margin-left:-50px;
+        margin-top: 120px;
+        float: left;
+}
+section .pei_jian>a:last-child{
+    margin-right:-50px;
+    margin-top: -120px;
+    float:right;
+}
+section .pei_jian{
+     width:900px;
+     height:240px;
+     /* border:1px solid red; */
+     margin:auto;
+     
+}
+ul{
+    list-style:none;
+}
+section .pei_jian>ul>li{
+ float: left;
+}
+section .pei_jian>ul>li>a>img{
+    width:158px;
+}
+section .pei_jian>ul>li>a>.du_li{margin-left: 0 !important;}
+section .pei_jian>ul>li>a>img:first-child{
+    margin-left:27.5px;
+}
+section .pei_jian>div>div{
+    float:left;
+   width: 160px;
+   height:77px;
+   /* border: 1px solid red; */
+   margin-left: 17px
+}
+/* 第二个产品 */
+section .diEr{
+    margin: auto;
+    width:1160px;
+    height:450px;
+    margin-top: 100px;
+    border: 1px solid red;
+}
+section .diEr h2{
+    color:#ceae78;
+    font-size:18px;
+    text-align: center;
+}
+
+section .diEr h3{
+    color:#949494 !important;
+    font-weight: normal;
+    font-size:16px;
+    text-align: center;
+    margin-top: 10px;
+    margin-top:20px;
+}
+/* 导航 */
+section .diEr nav{
+    margin-top:40px;text-align: center
+}
+section .diEr nav a{
+    padding: 12px;
+    width: 152px;
+    height:47px;
+    color:#ceae78;
+    border: 1px solid #ceae78;
+    font-size:14px;
+   
+}
+section .diEr nav a:first-child{margin-right: 10px;}
+section .diEr nav a img{
+    vertical-align: middle;
+    margin-top: -3px;
+}
+/*购物车*/
+.shop_gwf{
+	width:1000px;
+	height:192px;
+	border-bottom:1px solid #000;
+    margin-left:100px;
+    position: relative;
+}
+.shop_gwf_1{
+	width:1000px;
+	height:192px;
+	 border-bottom:1px solid #000; 
+    margin-left:100px;
+    position: relative;
+}
+.cart input{
+	margin-top: 70px;
+    margin-left: -20px;
+    position: absolute
+}
+.gwf_img{
+	width:180px;
+	height:144px;
+	float: left;
+	margin-top: 30px;
+	/* border: 1px solid red; */
+}
+.gwf_left h2{
+	font-size:12px;
+	font-weight: normal;
+   text-align: left;
+	margin-top:5px;
+    margin-bottom: 5px;
+}
+.gwf_left h4{
+	font-size:12px;
+	font-weight: normal;
+	opacity:0.5;
+	text-align: left;
+	margin-bottom: 5px;
+}
+.gwf_left div{
+	font-size:12px;
+	font-weight: normal;
+	opacity:1 !important;
+    text-align: left;
+    
+}
+.gwf_left div span:last-child{
+	color:#a38d6b;
+}
+.gwf_left div img{
+	margin: 0;
+	width: 50px;
+    vertical-align: middle;
+   
+}
+.gwf_zhuti{
+	margin-left: 30px;
+	width:765px;
+	height:144px;
+	float:left;
+	margin-top:30px;
+	/* border: 1px solid red; */
+}
+.gwf_left{
+	width: 500px;
+	height:144px;
+	float: left;
+	/* border: 1px solid red; */
+}
+.gwf_right{
+	width:260px;
+	height:144px;
+	/* border: 1px solid red; */
+	float:left;
+	
+}
+.gwf_right p:first-child{
+	margin-top:0 !important;
+    text-align: right;
+    margin-bottom: 90px;
+}
+.gwf_right p:first-child span{
+color:#ff4001;
+font-size: 14px;	
+}
+.gwf_right p:last-child{
+    text-align: end;
+    text-align: right;
+}
+.gwf_right p>button{
+	width: 1.5rem;
+    height:1.5rem;
+    text-align: center;
+}
+/* 底部固定导航 */
+.bottom_fixed{
+    height:80px;
+    width:100%;
+    margin: auto;
+    position: fixed;
+    bottom:0;
+    background: #fff;
+     border-top: 1px solid #ddd;
+     border-bottom: 1px solid #ddd;
+}
+.bottom_fixed .bottom_zhuto{
+   height:100%;
+   width:1000px;
+   margin: auto;
+   line-height: 80px;
+   /* border: 1px solid pink; */
+}
+.bottom_left , .bottom_right{
+    width: 608px;
+    height:100%;
+    float: left;
+    /* border: 1px solid red; */
+}
+.bottom_right{
+    width:385px !important;
+}
+.bottom_left>a{
+    margin-left: 20px;
+}
+.bottom_left>input{
+    margin-left: 0;
+    margin-top: 40px;
+}
+.bottom_right>a{
+    display: block;
+    width:230px;
+    height:60px;
+    float:right;
+    background: #ff4001;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 10px;
+}
+/* 清除浮动 */
+table{
+    content: "";
+    display: block;
+    clear: both;
+}

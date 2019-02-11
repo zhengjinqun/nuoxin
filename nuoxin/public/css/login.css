@@ -1,0 +1,139 @@
+*{margin: 0;padding: 0;}
+.zong_width{width:1347px;height:100px;}
+header:after{
+	content:"";
+	display: block;
+	clear:both;
+}
+header{height:100px;}
+header>div{
+	width:1347px;
+	background:white;
+	height:100px;
+	position:fixed;
+	/* border: 1px solid red; */
+}
+header>div>img:first-child{margin-top:38px;margin-left:8rem;}
+/*主体*/
+ .zhuti{
+	width:100%;
+	text-align: center;
+	margin: auto;
+	height:520px;
+	background:url("../img/detail_page/xueyu/AC198F1E37025872D33159B4CFC2AE88.jpg") no-repeat center center;
+
+}
+/* 主体 */
+section .zhuti{position: relative;}
+section .denglu{
+	width:370px;
+	height:440px;
+	position: absolute;
+	margin-top:3rem;
+	margin-left:50rem;
+	background: white;
+}
+section>.zhuti>.denglu>p{
+	
+
+	margin-top: 20px;
+}
+section>.zhuti>.denglu>.zhuChi>a{text-decoration: none;	font-size:16px;}
+section>.zhuti>.denglu>.zhuChi>a:first-child{
+	color:#3e3e3e;
+	font-size:16px;
+
+}
+section>.zhuti>.denglu>.zhuChi>a:last-child{color:#fe4320;}
+section>.zhuti>.denglu>.zhuChi>b{padding:30px;}
+/* 手机号码 */
+.haoMa{position: relative;}
+.haoMa>input{
+	height:40px;
+	width:200px;
+	border:0;
+	border-bottom: 1px solid #e5e5e5;
+	font-size:16px;
+	margin-left:-20px;
+	text-indent: 20px;
+}
+.haoMa>img{
+	position: absolute;
+	margin-top:12px;
+	margin-left: -20px;
+}
+.haoMa>.position_1{
+	top:-15px;
+	left:210px;
+}
+section>.zhuti>.denglu>.haoMa>span{
+	position: absolute;
+	top:15px;
+	left:285px;
+
+}
+form>span{
+	position: absolute;
+}
+/*section>.zhuti>.denglu>.haoMa>input{
+	width:90px;
+	height: 30px;
+	background: #fe4320;
+	color:white;
+	border:0;
+	position: absolute;
+	top:13px;
+	left:240px;
+	font-size: 12px;
+}*/
+.li_ke{
+	display:block;
+	background: #fe4320;
+	font-size:16px;
+	color:white;
+	width:250px;
+	height:50px;
+	border:0;
+	margin: auto;
+	margin-top: 25px;
+}
+/* 忘记密码 */
+section>.zhuti>.denglu>.wj_upwd{margin-top:10px;margin-bottom: 20px;}
+section>.zhuti>.denglu>.wj_upwd>span{
+	margin-left: 30px;
+	font-size:16px;
+}
+section>.zhuti>.denglu>.wj_upwd>a{
+	text-decoration: none;
+	font-size:16px;
+	color: #fe4320;
+}
+section>.zhuti>.denglu>.wj_upwd>a:first-child{
+	color:#3e3e3e;
+	font-size:14px;
+	opacity: 0.5;
+}
+/* 其他方式登陆 */
+section>.zhuti>.denglu>.qi_ta{
+	position: relative;
+}
+section>.zhuti>.denglu>.qi_ta>a{
+	position: absolute;
+	top:-10px;
+	left:90px;
+	text-decoration: none;
+	font-size:14px;
+	color:#3e3e3e;
+	background: white;
+}
+/* 底部图片 */
+section>.zhuti>.denglu>.wei_img{
+	margin-top:10px;
+}
+.wei_img>a{
+	text-decoration: none;
+}
+footer{width:100%;background:white;}
+table{
+	clear:both;
+}
